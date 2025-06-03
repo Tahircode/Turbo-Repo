@@ -1,0 +1,12 @@
+{
+  "name": "b-app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx esbuild ./src/index.ts --bundle --platform=node --outfile=dist/index.js"
+  }
+}

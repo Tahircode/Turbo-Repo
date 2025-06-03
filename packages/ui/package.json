@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./*": "./src/*.tsx"
+    "./input-box": "./src/input-box.tsx",
+    "./*": "./src/*.tsx",
+    "./admin":"./src/admin.tsx",
+    "./Button":"./src/button.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
